@@ -1,8 +1,8 @@
 [
   {
-    "versionCode": 5202,
-    "versionName": "5.2.0.2",
-    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-5.2.0.2/nimojivaxte-release.apk",
-    "releaseNotes": "• Saniyəbəsaniyə işləyən daxili güncəlləmə sistemi (Cache-free).\n• Azan səsinin oxunma stabilliyi artırıldı.\n• Auto-start (Avtomatik başlama) icazə yönləndirməsi əlavə edildi.\n• Batareya optimallaşdırılması sorğuları təkrarlandıqda yaranan bug həll edildi."
+    "versionCode": 5203,
+    "versionName": "5.2.0.3",
+    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-5.2.0.3/nimojivaxte-release.apk",
+    "releaseNotes": "• Mütləq Vaxt Dəqiqliyi (Baku GMT+4).\n• Azan Səsinin Bərpası və Stabillik.\n• Təkmilləşdirilmiş İcazə Sistemi (Sequental Flow).\n• Kod Optimallaşdırması və Təmizlik."
   }
 ]
