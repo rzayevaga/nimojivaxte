@@ -1,8 +1,8 @@
 [
   {
-    "versionCode": 4110,
-    "versionName": "4.1.1.0",
-    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-4.1.1.0/nimojivaxte-release.apk",
+    "versionCode": 4.1.1.1,
+    "versionName": "4.1.1.1",
+    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-4.1.1.1/nimojivaxte-release.apk",
     "releaseNotes": "• Daxili yenilənmə sistemi əlavə edildi.\n• Əlamətdar günlər bazası mərkəzləşdirildi.\n• Sistem icazələri və batareya tənzimləmələri optimallaşdırıldı."
   }
 ]
