@@ -1,8 +1,8 @@
 [
   {
-    "versionCode": 5203,
-    "versionName": "5.2.0.3",
-    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-5.2.0.3/nimojivaxte-release.apk",
-    "releaseNotes": "•  Mütləq Vaxt Dəqiqliyi (Baku GMT+4).\n• Azan Səsinin Bərpası və Stabillik.\n• Təkmilləşdirilmiş İcazə Sistemi (Sequental Flow).\n• Kod Optimallaşdırması və Təmizlik."
+    "versionCode": 5204,
+    "versionName": "5.2.0.4",
+    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-5.2.0.4/nimojivaxte-release.apk",
+    "releaseNotes": "• Mütləq Vaxt Dəqiqliyi (Baku GMT+4).\n• Azan Səsinin Bərpası və Stabillik.\n• Təkmilləşdirilmiş İcazə Sistemi (Sequental Flow).\n• Kod Optimallaşdırması və Təmizlik.\nYaradan: Agha Rzayeff"
   }
 ]
