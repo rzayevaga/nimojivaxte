@@ -1,2 +1,2 @@
-# nimojivaxte
+# Namaz Vaxtı 
 Nimoji Vaxte
