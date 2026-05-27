@@ -1,8 +1,8 @@
 [
   {
-    "versionCode": 5223,
-    "versionName": "5.2.2.3",
-    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-5.2.2.2/nimojivaxte-release.apk",
+    "versionCode": 5225,
+    "versionName": "5.2.2.5",
+    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-5.2.2.5/nimojivaxte-release.apk",
     "releaseNotes": "1. Məxfilik Siyasəti (Privacy Policy):\n|\n- Haqqında bölməsinə yeni 'Məxfilik Siyasəti' düyməsi əlavə edildi.\n- Düyməyə basdıqda tətbiq daxilində xüsusi bir popup (dialoq) pəncərəsi açılır.\n- Burada tətbiqin oflayn işləməsi, QMİ uyğunluğu, GPS və fayl icazələri haqqında tam məlumat verilir.\n\n2. UI Təkmilləşdirmələri:\n\n- Tətbiq İkonu: 'Nimoji Vaxte' adının üstündə tətbiqin rəsmi ikonu yerləşdirildi (arxa fonu olmayan/şəffaf formatda).\n- QMİ Qeydi: Namaz vaxtlarının Azərbaycan Müsəlmanları Qafqaz İdarəsinə (QMİ) aid olması haqqında xüsusi xəbərdarlıq mətni əlavə edildi.\n> Versiya Yenilənməsi:  `5.2.2.2` olaraq yeniləndi..\n\nDeveloper: Agha Rzayeff"
   }
 ]
