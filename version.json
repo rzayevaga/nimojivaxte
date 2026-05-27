@@ -1,8 +1,8 @@
 [
   {
-    "versionCode": 5204,
-    "versionName": "5.2.0.4",
-    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-5.2.0.5/app-release.apk",
-    "releaseNotes": "• Versiya Artımı: Tətbiq versiyası 5.2.0.4-ə yüksəldildi..\n• Stabillik: Qlobal xəta tutucu (Crash Handler) əlavə edildi və runBlocking kimi tətbiqi donduran kodlar təmizləndi.\n• Yenilənmə Sistemi: Arxa planda hər 10 saniyədən bir GitHub-dan yoxlama aparılır. Tətbiqə girişdə isə keş istifadə etmədən (fresh) yoxlama təmin edildi..\n\nDeveloper: Agha Rzayeff"
+    "versionCode": 5208,
+    "versionName": "5.2.0.8",
+    "downloadUrl": "https://github.com/rzayevaga/nimojivaxte/releases/download/NimojiVaxte-5.2.0.9/nimojivaxte-release.apk",
+    "releaseNotes": "• Versiya Artımı: Tətbiq versiyası 5.2.0.8-ə yüksəldildi..\n\nDeveloper: Agha Rzayeff"
   }
 ]
