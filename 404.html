@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xəta Baş Verdi - Nımoji Vaxte</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="logo.png">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <style>
+        .error-page {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .error-code {
+            font-size: clamp(6rem, 20vw, 12rem);
+            font-weight: 900;
+            line-height: 1;
+            background: linear-gradient(180deg, #fff, var(--primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            filter: drop-shadow(0 0 30px var(--primary-glow));
+            margin-bottom: 20px;
+        }
+        .error-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #fff;
+        }
+        .error-desc {
+            color: var(--text-dim);
+            max-width: 500px;
+            margin-bottom: 40px;
+        }
+        .error-btn {
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="animated-bg"></div>
+    <div id="cursor-glow"></div>
+
+    <main class="error-page">
+        <div id="error-icon" style="font-size: 4rem; color: var(--primary); margin-bottom: 20px;">
+            <i class="ph-fill ph-warning-octagon"></i>
+        </div>
+        <h1 class="error-code" id="code-display">404</h1>
+        <h2 class="error-title" id="title-display">Səhifə Tapılmadı</h2>
+        <p class="error-desc" id="desc-display">Axtardığınız səhifə silinib, adı dəyişdirilib və ya müvəqqəti olaraq əlçatmazdır.</p>
+
+        <a href="index.html" class="btn-primary error-btn">
+            <i class="ph-bold ph-house"></i> Ana Səhifəyə Qayıt
+        </a>
+    </main>
+
+    <script>
+        const errors = {
+            "404": { title: "Səhifə Tapılmadı", desc: "Axtardığınız səhifə mövcud deyil və ya silinib." },
+            "403": { title: "Giriş Qadağandır", desc: "Bu bölməyə daxil olmaq üçün icazəniz yoxdur." },
+            "402": { title: "Ödəniş Tələb Olunur", desc: "Bu resursdan istifadə üçün ödəniş edilməlidir." },
+            "500": { title: "Server Xətası", desc: "Daxili server xətası baş verdi. Az sonra yenidən cəhd edin." },
+            "505": { title: "HTTP Versiyası Dəstəklənmir", desc: "Brauzerinizin istifadə etdiyi HTTP versiyası server tərəfindən dəstəklənmir." }
+        };
+
+        const urlParams = new URLSearchParams(window.location.search);
+        const code = urlParams.get('code') || "404";
+
+        if (errors[code]) {
+            document.getElementById('code-display').innerText = code;
+            document.getElementById('title-display').innerText = errors[code].title;
+            document.getElementById('desc-display').innerText = errors[code].desc;
+            document.title = `${code} Xətası - Nımoji Vaxte`;
+        }
+
+        const d = document.getElementById('cursor-glow');
+        document.addEventListener('mousemove', e => {
+            d.style.left = e.clientX + 'px';
+            d.style.top = e.clientY + 'px';
+        });
+    </script>
+</body>
+</html>

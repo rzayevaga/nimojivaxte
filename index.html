@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nımoji Vaxte - Azərbaycanın Ən Dəqiq Namaz Vaxtı Tətbiqi</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Nımoji Vaxte - Azərbaycanın bütün şəhər və rayonları üçün saniyə dəqiqliyi ilə namaz vaxtları, oflayn qiblə kompası və ağıllı azan bildirişləri.">
+    <meta name="keywords" content="namaz vaxtlari, azan, qibla, azerbaijan prayer times, nmoji vaxte, din, islam, baki namaz vaxti">
+    <meta name="author" content="Agha Rzayeff">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / WhatsApp / Telegram -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://nmojivaxte.web.app/">
+    <meta property="og:title" content="Nımoji Vaxte - Müasir Namaz Vaxtı Platforması">
+    <meta property="og:description" content="Saniyə dəqiqliyi ilə namaz vaxtları və oflayn qiblə təyini. Tətbiqi elə indi yükləyin!">
+    <meta property="og:image" content="https://nmojivaxte.web.app/eg/ekran1.png">
+    <meta property="og:site_name" content="Nımoji Vaxte">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://nmojivaxte.web.app/">
+    <meta property="twitter:title" content="Nımoji Vaxte - Müasir Namaz Vaxtı Platforması">
+    <meta property="twitter:description" content="Saniyə dəqiqliyi ilə namaz vaxtları və oflayn qiblə təyini. Tətbiqi elə indi yükləyin!">
+    <meta property="twitter:image" content="https://nmojivaxte.web.app/eg/ekran1.png">
+
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <div id="scroll-progress" class="scroll-progress"></div>
+    <div id="cursor-glow"></div>
+    <div class="animated-bg"></div>
+
+    <div id="download-banner" class="download-banner">
+        <div class="banner-content">
+            <div class="banner-icon"><i class="ph-bold ph-device-mobile"></i></div>
+            <span>Tətbiqi elə indi yükləyin!</span>
+            <a href="https://github.com/rzayevaga/nimojivaxte/releases/download/nimojivaxte-5.23.9/nimojivaxte-release.apk" class="btn-download-sm">APK YÜKLƏ <i class="ph ph-download-simple"></i></a>
+        </div>
+        <button id="close-banner" class="btn-close"><i class="ph ph-x"></i></button>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="logo.png" alt="nimojivaxte Logo" class="nav-logo">
+                <span class="brand-name">Nımoji Vaxte</span>
+            </div>
+            <div class="nav-links">
+                <a href="#hero" class="nav-link active">Ana Səhifə</a>
+                <a href="#features" class="nav-link">Özəlliklər</a>
+                <a href="#screenshots" class="nav-link">Ekranlar</a>
+                <div class="nav-divider"></div>
+                <button onclick="openModal('instructions')" class="nav-btn">Təlimat</button>
+                <button onclick="openModal('privacy')" class="nav-btn">Məxfilik</button>
+            </div>
+            <div class="nav-actions">
+                <div class="lang-picker">
+                    <i class="ph ph-globe"></i>
+                    <span>AZ</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content" data-aos="fade-up">
+                <span class="badge">Rəsmi Platforma</span>
+                <h1 class="glitch-text">Nımoji Vaxte</h1>
+                <p>Azərbaycanın ən dəqiq və müasir namaz vaxtı tətbiqi. İbadətlərinizi saniyə dəqiqliyi ilə planlayın.</p>
+                <div class="hero-btns">
+                    <a href="https://github.com/rzayevaga/nimojivaxte/releases/download/nimojivaxte-5.23.9/nimojivaxte-release.apk" class="btn-primary">İndi Yüklə <i class="ph-bold ph-download-simple"></i></a>
+                    <a href="#features" class="btn-secondary">Kəşf et <i class="ph-bold ph-arrow-down"></i></a>
+                </div>
+
+                <div class="qr-download" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="qr-frame">
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://github.com/rzayevaga/nimojivaxte/releases/download/nimojivaxte-5.23.9/nimojivaxte-release.apk" alt="QR Code">
+                        <div class="qr-scan-line"></div>
+                    </div>
+                    <p>Skan et və Yüklə</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="screenshots" class="screenshots-section">
+            <h2 data-aos="fade-down">Tətbiqdən Görüntülər</h2>
+            <div class="slider-container" data-aos="zoom-in">
+                <div class="slider-wrapper">
+                    <div class="slide"><div class="mockup"><img src="eg/ekran1.png" alt="Ekran g. 1"></div></div>
+                    <div class="slide"><div class="mockup"><img src="eg/ekran2.png" alt="Ekran g. "></div></div>
+                    <div class="slide"><div class="mockup"><img src="eg/ekran3.png" alt="Ekran g. "></div></div>
+                    <div class="slide"><div class="mockup"><img src="eg/ekran4.png" alt="Ekran g. "></div></div>
+                    <div class="slide"><div class="mockup"><img src="eg/ekran5.png" alt="Ekran g. "></div></div>
+                    <div class="slide"><div class="mockup"><img src="eg/ekran6.png" alt="Ekran g. "></div></div>
+                    <div class="slide"><div class="mockup"><img src="eg/ekran7.png" alt="Ekran g. "></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="features-grid">
+            <div class="feature-card" data-aos="fade-right">
+                <div class="card-icon"><i class="ph-fill ph-clock"></i></div>
+                <h3>Saniyə Dəqiqliyi</h3>
+                <p>Astronomik hesablamalarla Azərbaycanın hər nöqtəsi üçün tam dəqiq vaxtlar.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-up">
+                <div class="card-icon"><i class="ph-fill ph-compass"></i></div>
+                <h3>Oflayn Qiblə</h3>
+                <p>İnternet olmadan belə ən dəqiq peyk naviqasiyası ilə qiblə təyini.</p>
+            </div>
+            <div class="feature-card" data-aos="fade-left">
+                <div class="card-icon"><i class="ph-fill ph-bell-ringing"></i></div>
+                <h3>Ağıllı Azan</h3>
+                <p>Fərdiləşdirilə bilən azan səsləri və tam ekran bildiriş sistemi.</p>
+            </div>
+        </section>
+
+        <section class="stats-container" data-aos="zoom-in">
+            <div class="stat-item">
+                <h2 class="counter" data-target="100">0</h2>
+                <p>Yüklənmə</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <h2 class="counter" data-target="4.9">0.0</h2>
+                <p>Reytinq</p>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+                <h2 class="counter" data-target="76">0</h2>
+                <p>Şəhər & Rayon</p>
+            </div>
+        </section>
+
+        <section id="faq" class="content-block" data-aos="fade-up">
+            <h2 class="section-title">Tez-tez Verilən Suallar</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Niyə vaxtlar digər təqvimlərdən fərqlidir?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Hesablamalar Azərbaycanın spesifik coğrafi koordinatlarına və dəniz səviyyəsindən hündürlüyünə əsaslanır. ±1-5 dəqiqəlik fərqlər astronomik hesablama metodlarından qaynaqlanır.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Azan bildirişi niyə gəlmir?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Azan bildirişlərinin saniyə dəqiqliyi ilə və cihaz yuxuda olarkən gəlməsi üçün aşağıdakı tənzimləmələri etməyiniz mütləqdir:</p>
+                        <ul class="modal-list inner-list">
+                            <li><strong>Batareya Optimizasiyası:</strong> Tətbiqi "Məhdudiyyətsiz" (Unrestricted/Don't optimize) rejiminə keçirin.</li>
+                            <li><strong>Bildiriş İcazəsi:</strong> Android 13+ cihazlarda bildirişlərə tam icazə verin.</li>
+                            <li><strong>Dəqiq Siqnal (Exact Alarm):</strong> Tətbiqə "Siqnallar və xatırladıcılar" bölməsindən dəqiq vaxt icazəsi verin.</li>
+                            <li><strong>Digər tətbiqlər üzərində göstərmə (Overlay):</strong> Tam ekran azan pəncərəsi üçün bu icazəni aktiv edin.</li>
+                            <li><strong>Avtomatik Başlama (Auto-start):</strong> Xiaomi, Huawei və digər bəzi cihazlarda tətbiqin arxa planda işləməsi üçün bu icazə vacibdir.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <div class="accordion-header">
+                        <span>Qiblə kompası niyə səhv göstərir?</span>
+                        <i class="ph ph-caret-down"></i>
+                    </div>
+                    <div class="accordion-content">
+                        <p>Cihazı metal əşyalardan uzaq tutun və kompası '8' rəqəmi cızaraq kalibrləyin. Ən dəqiq nəticə üçün cihazı düz səthə qoyun.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="changelog" class="content-block" data-aos="fade-up">
+            <h2 class="section-title">Son Yeniliklər (v5.23.9)</h2>
+            <div class="changelog-card">
+                <div class="version-tag">YENİ</div>
+                <ul class="changelog-list">
+                    <li><i class="ph-bold ph-sparkle"></i> Namaz vaxtları üçün dinamik RGB Neon effekti əlavə edildi.</li>
+                    <li><i class="ph-bold ph-map-pin-line"></i> Oflayn rejimdə məkan adı keşləmə sistemi tətbiq olundu.</li>
+                    <li><i class="ph-bold ph-lock-key"></i> Tam ekran azan modunda hərəkət bloklama sistemi gücləndirildi.</li>
+                    <li><i class="ph-bold ph-rocket-launch"></i> Tətbiq ölçüsü və performans optimallaşdırıldı.</li>
+                </ul>
+            </div>
+        </section>
+
+        <div id="modal-overlay" class="modal-overlay">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeModal()"><i class="ph ph-x"></i></button>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-btns" data-aos="fade-up">
+                <button onclick="openModal('about')" class="footer-btn"><i class="ph-fill ph-info"></i> Haqqında</button>
+                <button onclick="openModal('instructions')" class="footer-btn"><i class="ph-fill ph-book-open"></i> Təlimat</button>
+                <button onclick="openModal('privacy')" class="footer-btn"><i class="ph-fill ph-shield-check"></i> Məxfilik</button>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.instagram.com/@rva.pg"><i class="ph-bold ph-instagram-logo"></i></a>
+                <a href="https://t.me/raictx"><i class="ph-bold ph-telegram-logo"></i></a>
+                <a href="https://www.tiktok.com/@rzayef.tt"><i class="ph-bold ph-tiktok-logo"></i></a>
+            </div>
+            <p>&copy; 2026 Nımoji Vaxte. Developer: Agha Rzayeff</p>
+        </footer>
+
+        <button id="scroll-top" class="btn-scroll-top"><i class="ph-bold ph-arrow-up"></i></button>
+    </main>
+
+    <div id="modal-data" style="display: none;">
+        <div id="data-about">
+            <h2>Tətbiq Haqqında</h2>
+            <p>Nımoji Vaxte, Azərbaycanın bütün şəhər və rayonları üçün namaz vaxtlarını saniyə dəqiqliyi ilə təqdim edən müasir və istifadəçi dostu bir tətbiqdir. Tətbiqimiz tamamilə oflayn rejimdə işləyir və istifadəçi məlumatlarının təhlükəsizliyini qoruyur.</p>
+            <p>Əsas hədəfimiz, texnologiyanın imkanlarından istifadə edərək dindarların öz ibadətlərini daha rahat və planlı şəkildə yerinə yetirmələrinə kömək etməkdir.</p>
+        </div>
+        <div id="data-instructions">
+            <h2>İstifadə Təlimatı</h2>
+            <ul class="modal-list">
+                <li><strong>Namaz Vaxtları:</strong> Hesablamalar Azərbaycanın coğrafi koordinatlarına və yerli standartlara əsasən aparılır.</li>
+                <li><strong>Azan Bildirişləri:</strong> Bildirişlərin vaxtında gəlməsi üçün Batareya Optimizasiyasını (Don't optimize) deaktiv edin.</li>
+                <li><strong>Səs Düymələri:</strong> Azan çalınan zaman cihazın fiziki səs düymələri ilə azanın səsini idarə edə bilərsiniz.</li>
+                <li><strong>Tam Ekran Rejimi:</strong> Azan vaxtı ekran kilidlidirsə, xüsusi pəncərə açılacaq. Azanı dayandırmaq üçün sürüşdürün.</li>
+                <li><strong>Qiblə Kompas:</strong> Kompasın düzgün işləməsi üçün telefonu '8' formalı hərəkətlə kalibrləyin.</li>
+            </ul>
+        </div>
+        <div id="data-privacy">
+            <h2>Məxfilik Siyasəti</h2>
+            <p>Nımoji Vaxte tətbiqi istifadəçi məxfiliyini hər şeydən üstün tutur.</p>
+            <ol class="modal-list">
+                <li><strong>Şəxsi Məlumatlar:</strong> Tətbiqimiz heç bir şəxsi məlumatı tələb etmir və toplamır.</li>
+                <li><strong>Məkan Məlumatları:</strong> GPS icazəsi yalnız namaz vaxtlarını hesablamaq üçün istifadə olunur və serverə ötürülmür.</li>
+                <li><strong>Təhlükəsizlik:</strong> Tətbiqdə kənar reklam şəbəkələri və ya zərərli kodlar yoxdur.</li>
+            </ol>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="assets/script.js"></script>
+</body>
+</html>
