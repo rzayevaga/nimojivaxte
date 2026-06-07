@@ -14,7 +14,3 @@ ErrorDocument 402 404.html?code=402
 
 # 505 -
 ErrorDocument 505 404.html?code=505
-
-<FilesMatch "\.(png|jpg|jpeg|gif)$">
-    Header set Cache-Control "max-age=2592000, public"
-</FilesMatch>
